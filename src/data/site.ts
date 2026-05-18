@@ -40,8 +40,18 @@ const experienceMarkdown = readContent("experience.md");
 
 function getSection(markdown: string, title: string) {
   const escaped = title.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
-  const match = markdown.match(new RegExp(`^## ${escaped}\\s*\\n([\\s\\S]*?)(?=^##\\s+|$)`, "m"));
-  return match?.[1].trim() ?? "";
+  const heading = markdown.match(new RegExp(`^## ${escaped}\\s*\\n`, "m"));
+
+  if (!heading || heading.index === undefined) {
+    return "";
+  }
+
+  const sectionStart = heading.index + heading[0].length;
+  const remaining = markdown.slice(sectionStart);
+  const nextHeadingIndex = remaining.search(/^##\s+/m);
+  const sectionEnd = nextHeadingIndex === -1 ? markdown.length : sectionStart + nextHeadingIndex;
+
+  return markdown.slice(sectionStart, sectionEnd).trim();
 }
 
 function parseFields(block: string) {

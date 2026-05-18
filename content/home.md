@@ -16,7 +16,7 @@ text: I work on post-training, multimodal AI systems and now I'm exploring world
 - Email | mailto:wangjessamine@gmail.com | mail | active
 - CV | /Jiaming_Wang_CV.pdf | file | active
 - GitHub | https://github.com/w-Jessamine | github | active
-- Google Scholar | https://scholar.google.com/citations?hl=en&user=e8DzN6AAAAAJ | scholar
+- Google Scholar | https://scholar.google.com/citations?hl=en&user=e8DzN6AAAAAJ | scholar | active
 - Xiaohongshu |  | xiaohongshu
 
 ## About
@@ -30,4 +30,3 @@ I am an undergraduate researcher at Nanjing University working on LLM post-train
 - Agents and code intelligence
 - Multimodal learning
 - Data-centric methods
-
