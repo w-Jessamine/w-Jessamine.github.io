@@ -1,0 +1,2 @@
+- 2025.12- | Research Intern on World Model | CUHK, MMLab.
+- 2023.9 - 2027.6 | Undergraduate, School of Computer Science, Nanjing University.
