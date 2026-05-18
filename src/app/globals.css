@@ -18,6 +18,9 @@
   --venue-iclr-bg: #e2f2e6;
   --venue-iclr-border: #a7d5b4;
   --venue-iclr-ink: #1f6b3e;
+  --venue-icml-bg: #e5f5df;
+  --venue-icml-border: #add89b;
+  --venue-icml-ink: #35751f;
   --venue-cvpr-bg: #e3edf9;
   --venue-cvpr-border: #abc6ea;
   --venue-cvpr-ink: #245d9e;
@@ -45,6 +48,9 @@
   --venue-iclr-bg: rgba(65, 142, 83, 0.2);
   --venue-iclr-border: rgba(109, 181, 126, 0.42);
   --venue-iclr-ink: #93d8a5;
+  --venue-icml-bg: rgba(88, 155, 55, 0.22);
+  --venue-icml-border: rgba(139, 200, 109, 0.42);
+  --venue-icml-ink: #a7df8d;
   --venue-cvpr-bg: rgba(73, 124, 188, 0.24);
   --venue-cvpr-border: rgba(128, 170, 221, 0.42);
   --venue-cvpr-ink: #9dc1ee;
@@ -583,6 +589,12 @@ button {
     border-color: var(--venue-iclr-border);
     background: var(--venue-iclr-bg);
     color: var(--venue-iclr-ink);
+  }
+
+  .publication-venue--icml {
+    border-color: var(--venue-icml-border);
+    background: var(--venue-icml-bg);
+    color: var(--venue-icml-ink);
   }
 
   .publication-venue--cvpr {

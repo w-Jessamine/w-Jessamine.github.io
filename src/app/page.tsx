@@ -94,6 +94,7 @@ function getVenueTone(label: string) {
   const normalized = label.toLowerCase();
 
   if (normalized.includes("iclr")) return "iclr";
+  if (normalized.includes("icml")) return "icml";
   if (normalized.includes("cvpr")) return "cvpr";
   if (normalized.includes("acl")) return "acl";
   if (normalized.includes("arxiv")) return "arxiv";
