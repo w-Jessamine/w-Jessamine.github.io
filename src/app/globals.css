@@ -33,18 +33,18 @@
 }
 
 :root[data-theme="dark"] {
-  --bg: #07110d;
-  --bg-subtle: #101b15;
-  --panel: #111d17;
-  --panel-muted: #17261d;
-  --line: #2f4437;
-  --line-strong: #4a6654;
-  --ink-strong: #f2efe4;
-  --ink: #d7ddcf;
-  --ink-soft: #9da997;
-  --accent: #a8c59b;
-  --accent-soft: #213b2b;
-  --shadow: rgba(0, 0, 0, 0.36);
+  --bg: #20251f;
+  --bg-subtle: #292d26;
+  --panel: #2f342c;
+  --panel-muted: #383d34;
+  --line: #505748;
+  --line-strong: #66705d;
+  --ink-strong: #f3efe4;
+  --ink: #ded9cc;
+  --ink-soft: #b8b29f;
+  --accent: #becfa8;
+  --accent-soft: #424d3a;
+  --shadow: rgba(14, 17, 13, 0.22);
   --venue-iclr-bg: rgba(65, 142, 83, 0.2);
   --venue-iclr-border: rgba(109, 181, 126, 0.42);
   --venue-iclr-ink: #93d8a5;
@@ -287,8 +287,8 @@ button {
 
   .theme-toggle.is-dark .theme-track {
     background:
-      linear-gradient(180deg, rgba(84, 112, 90, 0.45), transparent 68%),
-      #0a1711;
+      linear-gradient(180deg, rgba(112, 127, 94, 0.42), transparent 68%),
+      #252b23;
   }
 
   .theme-toggle.is-dark .theme-cloud {
@@ -419,29 +419,6 @@ button {
     display: grid;
     gap: 3.1rem;
     min-width: 0;
-  }
-
-  .lead-section {
-    max-width: 48rem;
-    padding-bottom: 2.2rem;
-    border-bottom: 1px solid var(--line-strong);
-  }
-
-  .lead-title {
-    margin-top: 0.55rem;
-    max-width: 44rem;
-    font-family: var(--font-serif), serif;
-    font-size: clamp(2.25rem, 4.8vw, 4rem);
-    line-height: 1.04;
-    color: var(--ink-strong);
-  }
-
-  .lead-text {
-    margin-top: 1rem;
-    max-width: 39rem;
-    font-size: 1.02rem;
-    line-height: 1.82;
-    color: var(--ink);
   }
 
   .content-section {
@@ -748,10 +725,6 @@ button {
 
   .content-column {
     gap: 2.55rem;
-  }
-
-  .lead-section {
-    padding-bottom: 1.7rem;
   }
 
   .section-heading {

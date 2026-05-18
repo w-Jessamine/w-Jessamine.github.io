@@ -3,7 +3,7 @@
 affiliation: Nanjing University
 role: Undergraduate Researcher
 line: MLLM, Agentic, and World Model.
-note: I like research that stays close to the machinery.
+note: Building legible intelligence, one careful step at a time.
 
 ## Preface
 

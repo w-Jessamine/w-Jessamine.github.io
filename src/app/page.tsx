@@ -2,7 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 
 import { ThemeToggle } from "@/components/theme-toggle";
-import { experience, getPublications, intro, interests, navigation, news, preface, profile, profileLinks } from "@/data/site";
+import { experience, getPublications, intro, interests, navigation, news, profile, profileLinks } from "@/data/site";
 
 type IconName =
   | "mail"
@@ -192,12 +192,6 @@ export default function Home() {
           </aside>
 
           <div className="content-column">
-            <section className="lead-section">
-              <p className="section-kicker">{preface.eyebrow}</p>
-              <h2 className="lead-title">{preface.title}</h2>
-              <p className="lead-text">{preface.text}</p>
-            </section>
-
             <section id="about" className="content-section scroll-mt-24">
               <SectionHeading kicker="About" title="Research Profile" />
               <p className="intro-copy">{intro}</p>

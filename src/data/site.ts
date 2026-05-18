@@ -117,8 +117,6 @@ function parsePublications(markdown: string): Publication[] {
 }
 
 const profileFields = parseFields(homeMarkdown.split("## Preface")[0]);
-const prefaceFields = parseFields(getSection(homeMarkdown, "Preface"));
-
 export const navigation = [
   { label: "About", href: "#about" },
   { label: "News", href: "#news" },
@@ -132,12 +130,6 @@ export const profile = {
   role: profileFields.role ?? "",
   line: profileFields.line ?? "",
   note: profileFields.note ?? "",
-};
-
-export const preface = {
-  eyebrow: prefaceFields.eyebrow ?? "",
-  title: prefaceFields.title ?? "",
-  text: prefaceFields.text ?? "",
 };
 
 export const profileLinks: LinkItem[] = parsePipeList(getSection(homeMarkdown, "Links")).map(([label, href, icon, state]) => ({
