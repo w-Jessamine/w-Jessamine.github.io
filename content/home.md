@@ -25,7 +25,7 @@ I am an undergraduate researcher at Nanjing University working on LLM post-train
 
 ## Research Interests
 
-- World models as an emerging direction
+- World models
 - LLM post-training
 - Agents and code intelligence
 - Multimodal learning

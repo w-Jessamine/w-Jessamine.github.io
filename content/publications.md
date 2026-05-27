@@ -16,11 +16,28 @@ links: Arxiv|https://arxiv.org/abs/2604.22291, Code|https://github.com/xiaoyuanp
 
 ## T2AV-Compass: Towards Unified Evaluation for Text-to-Audio-Video Generation
 
-meta: ICML 2026
-authors:Jiaming Wang*, Zhe Cao*, Tao Wang*, Yanghai Wang*, Yuanxing Zhang, Jialu Chen, Miao Deng, Jiahao Wang, Yubin Guo, Chenxi Liao, Yize Zhang, Zhaoxiang Zhang, Jiaheng Liu†
+meta: ICML 2026 | CVPR 2026 VGBE Oral
+authors:Zhe Cao*, Tao Wang*, Jiaming Wang*, Yanghai Wang*, Yuanxing Zhang, Jialu Chen, Miao Deng, Jiahao Wang, Yubin Guo, Chenxi Liao, Yize Zhang, Zhaoxiang Zhang, Jiaheng Liu†
 image: /publications/previews/t2av-compass.png
 imageFit: contain
 links: Arxiv|https://arxiv.org/abs/2512.21094f, Code|https://github.com/NJU-LINK/T2AV-Compass, Data|https://huggingface.co/datasets/NJU-LINK/T2AV-Compass, Project Page|https://github.com/NJU-LINK/T2AV-Compass.github.io
+
+## Where Do Deep-Research Agents Go Wrong? Span-Level Error Localization in Agent Trajectories
+
+meta: Under Review
+authors:Jiaming Wang*, Ziteng Feng*, Jiangtao Wu, Ruihao Li, Qianqian Xie, Yuxiang Ren, He Zhu, Xueming Han, Fanyu Meng, Junlan Feng, Jiaheng Liu†
+image: /publications/previews/agenterr.png
+imageFit: contain
+links: PDF|/publications/drqa.pdf
+
+## CoVEBench: Can Video Editing Models Handle Complex Instructions?
+
+meta: Under Review
+authors:Jiangtao Wu*, Jiaming Wang*, Yiwen He*, Yuanxing Zhang, Jialu Chen, Shihao Li, Dunyuan Liu, Xuedong Zhao, Jiaheng Liu†
+image: /publications/previews/CoVEdit.png
+imageFit: contain
+links: 
+
 
 ## Agentic-MME: What Agentic Capability Really Brings to Multimodal Intelligence?
 meta:

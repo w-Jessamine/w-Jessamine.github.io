@@ -1,4 +1,5 @@
-- 2026-4 | 🎊 T2AV-Compass is accepted by ICML 2026 Poster.
+- 2026-5 | 🎊 T2AV-Compass is accepted by ICML 2026 Poster.
+- 2026-4 | ✨ T2AV-Compass is accepted by CVPR 2026 VGBE Oral(Short Papers).
 - 2026-4 | 🎊 FunPoison ( Train in Vain ) is accepted by ACL 2026 Findings.
 - 2025-12 | 🎓 Research Assistant at CUHK, MMLab.
 - 2025-12 | 📷 Join Insta360 Research。
