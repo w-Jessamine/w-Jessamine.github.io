@@ -93,6 +93,7 @@ function LinkIcon({ name }: { name: IconName }) {
 function getVenueTone(label: string) {
   const normalized = label.toLowerCase();
 
+  if (normalized.includes("tmlr")) return "tmlr";
   if (normalized.includes("iclr")) return "iclr";
   if (normalized.includes("icml")) return "icml";
   if (normalized.includes("cvpr")) return "cvpr";
@@ -104,14 +105,19 @@ function getVenueTone(label: string) {
 
 function AuthorList({ authors }: { authors: string }) {
   const name = "Jiaming Wang";
-  const parts = authors.split(name);
+  const names = authors.split(",").map((author) => author.trim());
 
   return (
     <>
-      {parts.map((part, index) => (
-        <span key={`${part}-${index}`}>
-          {part}
-          {index < parts.length - 1 ? <strong>{name}</strong> : null}
+      {names.map((author, index) => (
+        <span key={`${author}-${index}`}>
+          <span className="publication-author">
+            {author.includes(name) ? (
+              <>{author.split(name)[0]}<strong>{name}</strong>{author.split(name)[1]}</>
+            ) : author}
+            {index < names.length - 1 ? "," : ""}
+          </span>
+          {index < names.length - 1 ? " " : null}
         </span>
       ))}
     </>
@@ -149,7 +155,7 @@ export default function Home() {
             <div className="portrait-card">
               <div className="portrait-shell">
                 <Image
-                  src="/avatar-main.jpg"
+                  src="/avatar-main.jpg?v=portrait-a"
                   alt="Portrait of Jiaming Wang"
                   fill
                   priority

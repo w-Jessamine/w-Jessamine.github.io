@@ -1,2 +1,3 @@
-- 2025.12- | Research Intern on World Model | CUHK, MMLab.
+- 2027 - 2031 (Expected)  | CSE PhD, Hong Kong University of Science and Technology.
+- 2025.12- present | Research Intern on World Model | CUHK, MMLab.
 - 2023.9 - 2027.6 | Undergraduate, School of Computer Science, Nanjing University.

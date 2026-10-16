@@ -1,3 +1,25 @@
+## HappyWorld-Bench
+
+meta: Technical Report
+authors: Zhiqi Bai, Junai Cai, Yixin Chen, Jingrun Du, Tao Feng, Wei Gong, Siyuan Huang, Xiao Lin, Jiaheng Liu, Jun Luo, Yongzhe Lyu, Liya Ma, Zenan Meng, Lin Qu, Wenbo Su, Jiaming Wang, Qinghe Wang, Shaofei Wang, Yanghai Wang, Zequn Wang, Ziming Wang, Hu Wei, Jiangtao Wu, Ruiqi Wu, Jiaxin Xie, Yuchi Xu, Ze Xu, Chengting Yu, Liangyu Yuan, Gang Zeng, Yawen Zeng, Xingyao Zhang, Zizheng Zhang, Bo Zheng, Jiancheng Zhu, Song-Chun Zhu
+imageLabel: HappyWorld-Bench
+links: Arxiv|https://arxiv.org/abs/2609.24308
+
+## LongWM-Bench: Benchmarking Persistent and Navigable Worlds over Long-Horizon Interaction
+
+meta: Under Review
+authors:Jiaming Wang*, Yufei Chen*, Jiangtao Wu*, Zhiqi Bai, Ziming Pan, Yanghai Wang, Fangqi Zhu, Chengting Yu, Liangyu Yuan, Qinghe Wang, Jiaxin Xie, Wenbo Su, Zhaoxiang Zhang, Jiaheng Liu†
+image: /publications/previews/longwm.png
+imageFit: contain
+
+## Where Do Deep-Research Agents Go Wrong? Span-Level Error Localization in Agent Trajectories
+
+meta: Under Review
+authors:Jiaming Wang*, Ziteng Feng*, Jiangtao Wu, Ruihao Li, Qianqian Xie, Yuxiang Ren, He Zhu, Xueming Han, Fanyu Meng, Junlan Feng, Jiaheng Liu†
+image: /publications/previews/agenterr.png
+imageFit: contain
+links: Arxiv|https://arxiv.org/abs/2606.02060, Code|https://github.com/NJU-LINK/DRIFT, Data|https://huggingface.co/datasets/NJU-LINK/TELBench, Project Page|https://nju-link.github.io/DRIFT/
+
 ## Winning the Pruning Gamble: A Unified Approach to Joint Sample and Token Pruning for Efficient Supervised Fine-Tuning
 
 meta: ICLR 2026 DATA-FM
@@ -22,13 +44,6 @@ image: /publications/previews/t2av-compass.png
 imageFit: contain
 links: Arxiv|https://arxiv.org/abs/2512.21094, Code|https://github.com/NJU-LINK/T2AV-Compass, Data|https://huggingface.co/datasets/NJU-LINK/T2AV-Compass, Project Page|https://github.com/NJU-LINK/T2AV-Compass.github.io
 
-## Where Do Deep-Research Agents Go Wrong? Span-Level Error Localization in Agent Trajectories
-
-meta: Under Review
-authors:Jiaming Wang*, Ziteng Feng*, Jiangtao Wu, Ruihao Li, Qianqian Xie, Yuxiang Ren, He Zhu, Xueming Han, Fanyu Meng, Junlan Feng, Jiaheng Liu†
-image: /publications/previews/agenterr.png
-imageFit: contain
-links: Arxiv|https://arxiv.org/abs/2606.02060, Code|https://github.com/NJU-LINK/DRIFT, Data|https://huggingface.co/datasets/NJU-LINK/TELBench, Project Page|https://nju-link.github.io/DRIFT/
 
 ## CoVEBench: Can Video Editing Models Handle Complex Instructions?
 
@@ -61,7 +76,7 @@ imageFit: contain
 links: Arxiv|https://arxiv.org/abs/2604.11641, Code|https://github.com/NJU-LINK/CodeTracer, Data|https://huggingface.co/datasets/NJU-LINK/CodeTraceBench, Project Page|https://nju-link.github.io/CodeTracer/
 
 ## A Survey of Linear Attention: Algorithm, Theory, Application, and Infrastructure
-meta: Survey
+meta: TMLR 2026
 authors: Yudong Zhang, Weixuan Sun, Xingwu Sun, Wei Ding, Ruiqi Xie, Hongyi Wang, Junjie Chen, Jiacheng Liu, Shaobo Wang, Yuwei Zhang, Yiqing Huang, Jiaming Wang, Tianchen Zhao, Weidong Han, Yanfeng Chen, Kai Zhang, Shuaipeng Li, Ruobing Xie†, Di Wang, Jiansheng Chen, Linfeng Zhang†, Chengzhong Xu, Yu Wang†
 imageLabel: Linear Attention
 imageFit: contain

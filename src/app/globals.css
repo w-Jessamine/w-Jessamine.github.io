@@ -574,6 +574,7 @@ button {
     color: var(--venue-icml-ink);
   }
 
+  .publication-venue--tmlr,
   .publication-venue--cvpr {
     border-color: var(--venue-cvpr-border);
     background: var(--venue-cvpr-bg);
@@ -613,6 +614,10 @@ button {
     font-style: italic;
     line-height: 1.58;
     color: var(--ink-soft);
+  }
+
+  .publication-author {
+    white-space: nowrap;
   }
 
   .publication-authors strong {

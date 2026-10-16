@@ -21,7 +21,7 @@ text: I work on post-training, multimodal AI systems and now I'm exploring world
 
 ## About
 
-I am an undergraduate researcher at Nanjing University working on LLM post-training,code intelligence, and world model. My work is usually about training carefully, measuring honestly, and keeping systems legible.
+I am an undergraduate researcher at Nanjing University working on LLM post-training, code intelligence, and world models. My work is usually about training carefully, measuring honestly, and keeping systems legible. Incoming PhD student at HKUST CSE (Fall 2027), advised by Prof. Song Guo.
 
 ## Research Interests
 
