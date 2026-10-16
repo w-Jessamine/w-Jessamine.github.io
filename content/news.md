@@ -3,11 +3,11 @@
 - 2026-9 | 🌍 Released HappyWorld-Bench, our technical report on evaluating world models.
 - 2026-8 | 🎊 Our survey on linear attention is accepted by TMLR.
 - 2026-6 | 🎬 Join Alibaba Group (Token Foundry).
-- 2026-5 | 🏆 We Insta360 Research  win the Top2 && Top3 Winner in CVPR PortrainCraft Challenge.
+- 2026-5 | 🏆 Our team (Insta360 Research) won Top-2 and Top-3 in the CVPR 2026 PortraitCraft Challenge.
 - 2026-5 | 🎊 T2AV-Compass is accepted by ICML 2026 Poster.
 - 2026-4 | ✨ T2AV-Compass is accepted by CVPR 2026 VGBE Oral.
 - 2026-4 | 🎊 FunPoison ( Train in Vain ) is accepted by ACL 2026 Findings.
-- 2026-1 | 🎓 Research Assistant begin at CUHK, MMLab.
+- 2026-1 | 🎓 Begin as a Research Assistant at CUHK, MMLab.
 - 2025-12 | 📷 Join Insta360 Research.
 - 2025-10 | 🏆 Tencent Scholarship, 🎖️ Outstanding Student.
 - 2024-10 | 🏆 People Scholarship, 🎖️ Outstanding Student Leader.
